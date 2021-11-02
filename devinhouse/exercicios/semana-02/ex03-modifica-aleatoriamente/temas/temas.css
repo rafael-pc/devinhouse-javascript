@@ -1,0 +1,42 @@
+:root {
+    --sage: #D2CCA1;
+    --paleSpringBud: #DEDABA;
+    --goldCrayola: #E5C687;
+    --richBlackForeground: #0F1A20;
+    --white: #f8f8f8;
+    --black: #222;
+    --msuGreen: #2D4739;
+    --gray: #eee;
+  }
+
+.light-theme {
+ 
+    --bodyBg: var(--paleSpringBud);
+    --mainBg: var(--goldCrayola);
+    --buttonBg: var(--gray);
+    --fontColor: var(--black);
+  }
+  
+.dark-theme {
+    --bodyBg: var(--msuGreen);
+    --mainBg: var(--richBlackForeground);
+    --buttonBg: var(--msuGreen);
+    --fontColor: var(--white);
+  }
+
+*{
+    color: var(--fontColor);
+    font-family: 'open sans';
+} 
+
+button{
+    background-color: var(--buttonBg);
+}
+
+body{
+    background: var(--bodyBg);
+}
+
+main{
+    background-color: var(--mainBg);
+}
