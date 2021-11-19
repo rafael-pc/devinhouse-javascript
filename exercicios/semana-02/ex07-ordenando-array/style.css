@@ -1,0 +1,6 @@
+section{
+    display: flex;
+    font-family: 'open sans';
+    font-size: large;
+    justify-content: center;
+}
