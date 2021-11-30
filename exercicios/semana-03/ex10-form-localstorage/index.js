@@ -1,5 +1,6 @@
 let form = document.body.querySelector("form")
 let i = 2
+console.log(i)
 
 function inserirEndereco() {
     let novoEndereco = document.createElement('input')
