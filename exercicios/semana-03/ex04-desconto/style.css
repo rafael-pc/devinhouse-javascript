@@ -1,13 +1,13 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: beige;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: beige;
 }
-button{
-    margin-top: 20px;
+button {
+  margin-top: 20px;
 }
 
-label{
-    display: block;
-    margin-bottom: 10px;
-    margin-top: 10px;
+label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }

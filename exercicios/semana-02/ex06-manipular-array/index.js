@@ -10,11 +10,10 @@ function initMap() {
   myLocation();
 }
 
-
 function myLocation() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(
-      position => {
+      (position) => {
         const pos = {
           lat: position.coords.latitude,
           lng: position.coords.longitude,

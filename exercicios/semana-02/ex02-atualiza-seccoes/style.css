@@ -1,33 +1,32 @@
-*{
-    font-family: 'open sans';
+* {
+  font-family: "open sans";
 }
-span{
-    font-size: x-large;
+span {
+  font-size: x-large;
 }
-#container{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 20px;
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
 }
-section{
-    text-align: center;
-    border: 2px solid black;
-    width: 200px;
-    height: 200px;
+section {
+  text-align: center;
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
 }
-#btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
-button{
-    width: 80px;
-    height: 30px;
-    border-radius: 5px;
-    border: 0;
-    background-color: royalblue;
-    color: white;
+button {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  border: 0;
+  background-color: royalblue;
+  color: white;
 }
-
