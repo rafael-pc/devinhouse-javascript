@@ -1,18 +1,17 @@
-#dog{
-    width: 50%;
-    float: left;
-    background: orange;  
+#dog {
+  width: 50%;
+  float: left;
+  background: orange;
 }
-#cat{
-    width: 50%;
-    float: right;
-    background: purple;
-   
+#cat {
+  width: 50%;
+  float: right;
+  background: purple;
 }
-.dog{
-    height: 200px;
+.dog {
+  height: 200px;
 }
 
-.cat{
-    height: 200px;
+.cat {
+  height: 200px;
 }

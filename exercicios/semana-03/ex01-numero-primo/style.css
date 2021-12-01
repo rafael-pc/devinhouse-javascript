@@ -1,17 +1,17 @@
-body{
-    background-color: aqua;
-    font-family: 'open sans';
+body {
+  background-color: aqua;
+  font-family: "open sans";
 }
-form{
-    text-align: center;
+form {
+  text-align: center;
 }
-form input{
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
+form input {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
 }
-button{
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
 }

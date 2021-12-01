@@ -1,25 +1,27 @@
-input{
-    display: block;
+input {
+  display: block;
 }
 
-fieldset{
-    width: 200px;
-    margin-top: 15px;
+fieldset {
+  width: 200px;
+  margin-top: 15px;
 }
 
-#container{
-    width: 100vw;
-    display: flex;
-    justify-content:center;
-    gap: 50px;
+#container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }
 
-th, tr, td{
-    border: 1px solid black;  
+th,
+tr,
+td {
+  border: 1px solid black;
 }
 
-button{
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
 }
