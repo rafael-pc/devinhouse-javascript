@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevinHouse</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <h1>Formulário</h1>
+    <div id="container">
+      <h3>Dados pessoais</h3>
+      <form action="" id="formulario">
+        <label for="">Nome</label>
+        <input type="text" id="nome" placeholder="Digite seu nome" />
+        <label for="">Sobrenome</label>
+        <input type="text" id="sobrenome" placeholder="Digite seu sobrenome" />
+        <label for="">E-mail</label>
+        <input type="email" id="email" placeholder="Digite seu E-mail" />
+        <label for="">Telefone</label>
+        <input type="tel" id="telefone" placeholder="Digite seu telefone" />
+        <label for="">Endereço</label>
+        <input type="text" id="endereco" placeholder="Digite seu endereço" />
+      </form>
+    </div>
+
+    <div id="checkbox">
+      <h3>Custom Checkbox</h3>
+      <form action="">
+        <label for="opcao1" class="label-checkbox">
+          <input
+            type="checkbox"
+            id="opcao1"
+            name="opcao1"
+            value="opcao1"
+          />Opção 1
+          <span class="checkmark"></span>
+        </label>
+        <label for="opcao2" class="label-checkbox">
+          <input
+            type="checkbox"
+            id="opcao2"
+            name="opcao2"
+            value="opcao2"
+          />Opção 2
+          <span class="checkmark" class="label-checkbox"></span>
+        </label>
+        <label for="opcao3" class="label-checkbox">
+          <input
+            type="checkbox"
+            id="opcao3"
+            name="opcao3"
+            value="opcao3"
+          />Opção 3
+          <span class="checkmark"></span>
+        </label>
+      </form>
+    </div>
+
+    <div id="radio">
+      <h3>Custom Radio</h3>
+      <form action="">
+        <label class="radio-container"
+          >Opção 1
+          <input type="radio" checked="checked" name="radio" />
+          <span class="radio-checkmark"></span>
+        </label>
+        <label class="radio-container"
+          >Opção 2
+          <input type="radio" name="radio" />
+          <span class="radio-checkmark"></span>
+        </label>
+        <label class="radio-container"
+          >Opção 3
+          <input type="radio" name="radio" />
+          <span class="radio-checkmark"></span>
+        </label>
+        <label class="radio-container"
+          >Opção 4
+          <input type="radio" name="radio" />
+          <span class="radio-checkmark"></span>
+        </label>
+      </form>
+    </div>
+
+    <div id="drag-drop">
+      <h3>Arquivos</h3>
+      <div
+        id="target"
+        ondrop="drop_handler(event);"
+        ondragover="dragover_handler(event);"
+      >
+        Solte o arquivo aqui para fazer o upload
+      </div>
+      <form action="">
+        <label for="myfile"></label>
+        <input type="file" id="selectedFile" style="display: none" multiple />
+        <input
+          id="btn"
+          type="button"
+          value="Adicionar Arquivo"
+          onclick="document.getElementById('selectedFile').click();"
+        />
+      </form>
+    </div>
+
+    <div id="submit-container">
+        <input id="submit" type="submit" value="Enviar" />
+    </div>
+    
+  </body>
+</html>

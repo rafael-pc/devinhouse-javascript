@@ -1,0 +1,224 @@
+body {
+  background-color: rgb(174, 0, 255);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(255, 0, 119)
+  );
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin: 40px;
+}
+
+label {
+  color: rgb(66, 66, 66);
+}
+
+#container {
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+#container > form > input {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: none;
+  min-width: 290px;
+  border-bottom: 2px solid rgb(182, 182, 182);
+}
+
+#checkbox {
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  margin-top: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+#checkbox label {
+  display: block;
+  margin-top: 15px;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #eee;
+  border-radius: 2px;
+}
+
+.label-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  color: rgb(66, 66, 66);
+}
+
+/* Esconder o checkbox padrão */
+.label-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Adicionar uma cor de fundo cinza ao passar o mouse */
+.label-checkbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* Quando o checkbox é clicado, adicionar um fundo rosa */
+.label-checkbox input:checked ~ .checkmark {
+  background-color: #ff0a54;
+}
+
+/* Criar o ícone de check, escondido quando não estiver selecionado */
+.label-checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 6px;
+  top: 2px;
+  width: 3px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* Exibir o ícone quando selecionado */
+.label-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+#drag-drop {
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  margin-top: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+#btn {
+  font-weight: bold;
+  margin-top: 15px;
+  border: none;
+  padding: 6px;
+  background-color: #ff0a54;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#target {
+  border: 3px dashed gray;
+  text-align: center;
+  color: gray;
+  border-radius: 5px;
+  margin-top: 60px;
+  margin: 0em;
+  padding: 2em;
+}
+
+#radio {
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  margin-top: 25px;
+  border-radius: 5px;
+  max-width: 600px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.radio-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.radio-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 21px;
+  width: 21px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.radio-container:hover input ~ .radio-checkmark {
+  background-color: #ccc;
+}
+
+.radio-container input:checked ~ .radio-checkmark {
+  background-color: #ff0a54;
+}
+
+.radio-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.radio-container input:checked ~ .radio-checkmark:after {
+  display: block;
+}
+
+.radio-container .radio-checkmark:after {
+  top: 6px;
+  left: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+#submit-container {
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+#submit {
+  font-weight: bold;
+  margin-top: 25px;
+  border: none;
+  padding: 6px;
+  background-color: #ff0a54;
+  color: white;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+}

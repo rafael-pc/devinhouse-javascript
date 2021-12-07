@@ -21,7 +21,7 @@ class Produto {
     carro.appendChild(imagemCarro);
 
     const valorCarro = document.createElement("div");
-    valorCarro.textContent = "Valor: " + this.valor;
+    valorCarro.textContent = "Valor: R$ " + this.valor;
     carro.appendChild(valorCarro);
 
     const label = document.createElement("label");
@@ -32,7 +32,7 @@ class Produto {
 
     for (let i = 0; i < parcelas.length; i++) {
       const parcela = document.createElement("option");
-      parcela.textContent = parcelas[i];
+      parcela.textContent = parcelas[i] + 'x';
       parcelasCarro.appendChild(parcela);
     }
 
