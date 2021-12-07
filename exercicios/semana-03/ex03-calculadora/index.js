@@ -1,5 +1,3 @@
-"use strict";
-
 const soma = document.querySelector("#operadorSoma");
 const subtracao = document.querySelector("#operadorSubtracao");
 const divisao = document.querySelector("#operadorDivisao");
