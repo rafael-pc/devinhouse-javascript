@@ -1,0 +1,29 @@
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#progress-bar {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 5px;
+  border: 4px solid black;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+
+}
+
+#progress {
+  height: 30px;
+  /* background-color: brown; */
+  padding: 5px;
+  color: #ddd;
+  font-size: large;
+  text-align: center;
+  
+}
+
+

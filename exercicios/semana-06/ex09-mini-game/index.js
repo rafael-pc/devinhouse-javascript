@@ -61,3 +61,5 @@ function recuperaDimensaoDoCirculo() {
     altura: $circuloPrincipal.getBoundingClientRect().height,
   };
 }
+
+
