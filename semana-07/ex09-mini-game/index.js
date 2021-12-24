@@ -13,15 +13,16 @@ function move() {
         clearInterval(tempo);
         $range.style.display = "none";
         complete();
-      } else {
+      }
+      if (width > 0) {
         width--;
         $progress.style.width = width + "%";
         $progress.innerHTML = width + "%";
-        if (width < 30) {
-          $progress.style.backgroundColor = "brown";
-        } else {
-          $progress.style.backgroundColor = "green";
-        }
+      }
+      if (width < 30) {
+        $progress.style.backgroundColor = "brown";
+      } else {
+        $progress.style.backgroundColor = "green";
       }
     }, 100);
   }
@@ -34,10 +35,3 @@ function complete() {
     $progressBar.innerHTML = "Game Over";
   }
 }
-
-
-// $progressBar.addEventListener("click", () => {
-
-// });
-
-
