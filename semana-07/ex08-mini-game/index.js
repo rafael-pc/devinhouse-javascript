@@ -20,7 +20,7 @@ function move() {
         }
         complete();
       }
-    }, 100);
+    }, 300);
   }
 }
 
